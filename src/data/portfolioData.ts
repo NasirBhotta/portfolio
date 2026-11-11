@@ -54,6 +54,14 @@ export const PORTFOLIO_DATA = {
 
   projects: [
     {
+      id: "kingston", number: "08", title: "Kingston",
+      subtitle: "Next.js website", client: "Independent Project", category: "Web Development",
+      description: "Built Kingston with Next.js, with a live website available on Vercel.",
+      impact: "A published Next.js web project.",
+      tech: ["Next.js"], imagePlaceholderText: "Kingston — Next.js Website",
+      accentColor: "#38bdf8", liveUrl: "https://kingston-site.vercel.app/",
+    },
+    {
       id: "ecommerce", number: "07", title: "Full Stack Flutter Ecommerce Application",
       subtitle: "Flutter storefront, Firebase backend, payments & admin dashboard",
       client: "Independent Full Stack Project", category: "Full Stack Mobile E-Commerce",

@@ -17,6 +17,7 @@ function ProjectSummary({ project, number }: { project: ProjectStudy; number: nu
         <div><dt>The result</dt><dd>{project.outcome}</dd></div>
       </dl>
       <ul className={styles.stack} aria-label={`${project.name} technology stack`}>{project.stack.slice(0, 5).map((tech) => <li key={tech}>{tech}</li>)}</ul>
+      {project.slug === "kingston" && <a className={styles.readLink} href="https://kingston-site.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Kingston<ArrowUpRight size={16} /></a>}
       <Link className={styles.readLink} href={`/work/${project.slug}`}>Inside {project.name}<ArrowUpRight size={16} /></Link>
     </div>
   );

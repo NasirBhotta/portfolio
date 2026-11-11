@@ -31,6 +31,17 @@ function stack(id: string) {
 // the checkout contains no analytics exports, benchmarks, or credential evidence for them.
 export const PROJECT_STUDIES: ProjectStudy[] = [
   {
+    slug: "kingston", name: "Kingston", category: "Web / Next.js", ownership: "independent",
+    attribution: "Independent Next.js project", role: "Website development",
+    summary: "A Next.js website, published on Vercel.",
+    problem: "Create a website and make it available online.",
+    contribution: ["Built the Kingston website using Next.js.", "Published the project at kingston-site.vercel.app."],
+    outcome: "A live Next.js website visitors can explore.", stack: stack("kingston"),
+    decisions: [],
+    visual: { first: "Kingston.", second: "On the web.", index: "NEXT.JS WEBSITE", steps: ["Next.js", "Website", "Live on Vercel"] },
+    source: "Project ownership, Next.js stack, and live URL supplied by Nasir.",
+  },
+  {
     slug: "ecommerce", name: "Full Stack Flutter Ecommerce", category: "Full stack / Mobile commerce", ownership: "independent",
     attribution: "Independent full stack project", role: "Flutter app, Firebase backend & admin dashboard development",
     summary: "A complete shopping system connecting a Flutter storefront, payments, customer wallets, and store administration.",
